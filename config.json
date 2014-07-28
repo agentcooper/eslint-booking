@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true
+    },
+
+    "globals": {
+        "booking": true,
+        "sNSStartup": true,
+        "sNSExperiments": true,
+        "sNSExperimentsLoad": true,
+        "sNSStartupLoad": true,
+        "jQuery": true,
+        "$": true
+    },
+
+    "rules": {
+        "quotes": 0,
+        "camelcase": 0,
+        "no-underscore-dangle": 0
+    }
+}
