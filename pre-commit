@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+OUTPUT=$(git diff --staged --name-only -- '*.js')
+eslint -c ~/eslint-booking/config.json ${OUTPUT}
