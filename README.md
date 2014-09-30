@@ -8,8 +8,8 @@
 
 4. Add `. ~/eslint-booking/shell.sh` to your `~/.bash_profile`
 
+5. Add a symlink `ln -s ~/eslint-booking/pre-commit /usr/local/git_tree/affiliate_data/.git/hooks/pre-commit`
+
 ## Usage
 
 Run `eslint-run file.js` to check file. Use `eslint-diff` to check currently changed files.
-
-Don't forget to run step 4 everytime you pull this repo.
